@@ -6,7 +6,7 @@
   <style type="text/css">
     html body {
       margin: auto;
-      width: 33%;
+      width: 95%;
       padding: 10px;}
     p {font-size: 15px;
       text-align: justify;
@@ -22,6 +22,28 @@
       color: grey;} 
     li {text-transform: uppercase; 
       font-size: 13px;}
+    ul.buttons {margin: 0 0 0 -40px; list-style-type: none;}
+    ul.buttons a {
+     color: black; 
+     text-decoration: none;
+     background-color: lightgray;
+     border: 1px solid white;
+     display: block;
+     width: 650px;
+     text-align: center; 
+     padding-top: 10px;
+     padding-bottom: 10px; 
+     font-weight: bold;
+     margin-bottom: 2px;   
+     }
+     a:hover, a:active {background-color: lightgray;}
+     ul.buttons a:hover {background-color: gray;}
+     h2 {
+      display: block; 
+      width: 650px;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;}
   </style>
 </head>
 <body>
@@ -30,10 +52,10 @@
 <p>
   <img src="mountains.jpg" width="640" height="360" alt="mountain picture">
 </p>
-<section>
-  <h2>IŠSKIRIAMI TOKIE HTML NUORODŲ TIPAI:</h2>
-</section>
-<ul>
+<!--<section>
+  <h2>HTML NUORODŲ TIPAI</h2>
+</section>-->
+<ul class="buttons">
   <li><a href="#section1">Nuorodos į išorinius interneto puslapius</a></li>
   <li><a href="#section2">Nuorodos į kitus tos pačios interneto svetainės puslapius</a></li>
   <li><a href="#section3">Nuorodos į konkrečius to paties puslapio paragrafus</a></li>
