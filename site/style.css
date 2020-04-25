@@ -1,0 +1,80 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@100&display=swap');
+#content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*justify-content: center; ISJUNGUS ATRODO NIEKAS NEPASIKEICIA*/
+	/*height: 100vh; DINGSTA VIRSUTINE PUSLAPIO DALIS*/
+}
+/*body {
+	margin: auto;
+	width: 95%;
+	padding: 10px;
+}*/
+
+p {
+	font-size: 15px;
+	text-align: justify;
+	width: 650px;
+	font-family: arial;
+	color: grey;
+}
+
+p.intro {
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+    font-size: 59px;
+    font-weight: bold;
+    color: rgb(157, 245, 218);
+    font-family: arial;
+}
+
+h2 {font-size: 15px;}
+
+h3 {font-size: 15px;}
+
+a, h2, h3 {
+	font-family: arial;
+    color: grey;
+} 
+
+li {text-transform: uppercase; 
+    font-size: 13px;
+}
+
+ul.buttons {
+	margin: 0 0 0 -40px; 
+	list-style-type: none;
+}
+
+ul.buttons a {
+    color: gray; 
+    text-decoration: none;
+    background-color: lightgray;
+    border: 1px solid white;
+    display: block;
+    width: 650px;
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    font-weight: bold;
+    margin-bottom: 2px;  
+    /*border-radius: 7px;*/
+}
+
+a:hover, a:active {background-color: lightgray;}
+
+ul.buttons a:hover {background-color: gray;}
+
+h2 {
+    display: block; 
+    width: 650px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*img {border-radius: 150px 25px;}*/
