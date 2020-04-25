@@ -41,6 +41,10 @@ a, h2, h3 {
     color: grey;
 } 
 
+h1, h2, h3 {
+	width: 650px;
+}
+
 li {text-transform: uppercase; 
     font-size: 13px;
 }
